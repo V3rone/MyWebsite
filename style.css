@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+body{
+    background: #4C566A;
+}
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: #3B4252;
+    border-bottom: 2px solid white;
+}
+
+.logotext{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist a{
+    margin-left: 60px;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: 0.55s ease;
+}
+
+.navlist a:hover{
+    color: orangered;
+    border-bottom: 2px solid white;
+}
+
+.submit{
+    background-color: orangered;
+    border: 8px solid orangered;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    border-radius: 15px;
+}
+
+.submit:hover{
+    background-color: white;
+    border: 9.5px solid white;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    border-radius: 8px;
+    color: orangered;
+}
+
+.bgpic{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgpic:after {
+    content: "";
+    background-image: url(pics/BG.jpg);
+    background-size: cover;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+/*----------------form.html--------------*/
+.formdiv{
+    width: 40%;
+    background: #434C5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2E3440;
+    position: relative;
+    top: 50px;
+    color: yellow;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 3vw;
+    width: 50%;
+}
+
+form input, form textarea{
+    border: 1px solid #2E3440;
+    border-radius: 1px;
+    height: 20px;
+    background-color: #4C566A;  
+
+}
+
+form text{
+    font-size: 10px;
+}
+
+form #vorname, form #nachname, form #email, form #phone, form #message{
+    font-size: 10px;
+}
+
+form h3{
+    color: #fff;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
